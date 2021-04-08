@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Colorful creature</title>
+
+         <style>
+           h1 {
+              color: rgb(0, 227, 235);
+            }
+
+            body{
+                background-color: rgb(109, 209, 104);
+            }
+            p{
+                color: rgb(255, 255, 255); 
+            }
+
+         </style>
+
+
+
+
+    </head>
+    <body>
+
+        <h1>Sardegna</h1>
+
+        <p>La <em>sardegna</em> ha un <strong>mare stupendo</strong>.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Isola_di_Budelli._Arcipelago_della_Maddalena.JPG/220px-Isola_di_Budelli._Arcipelago_della_Maddalena.JPG" width="290"> 
+    </body>
+</html>
