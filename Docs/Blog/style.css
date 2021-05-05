@@ -1,0 +1,27 @@
+.par{
+    font-family:sans-serif;
+    font-style:italic;
+}
+h2{
+    font-family:sans-serif;
+    color:brown;
+}
+table{
+    border:2px solid blue;
+    border-collapse: collapse;
+}
+td{
+    border:2px solid blue;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+th{
+    border:2px solid blue;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+tbody{
+    background-color: rgb(255, 195, 195);
+}
