@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Esempio canvas</title>
+        <script type="text/javascript">
+            function creaFigura()
+            {
+              mioCanvas=document.getElementById("myCanvas");
+              ctx=mioCanvas.getContext("2d");
+              ctx.beginPath();
+              ctx.arc(130, 110, 50, 0, 2 * Math.PI, true);
+              ctx.lineWidth = 1;
+              ctx.strokeStyle = "black";
+              ctx.fillStyle="yellow";
+              ctx.fill();
+              ctx.stroke();
+   
+              ctx.beginPath();
+              ctx.arc(110, 90, 7, 0, 2 * Math.PI, true);
+              ctx.lineWidth = 8;
+              ctx.strokeStyle = "black";
+              ctx.fillStyle="white";
+              ctx.fill();
+              ctx.stroke();
+ 
+              ctx.beginPath();
+              ctx.arc(150, 90, 7, 0, 2 * Math.PI, true);
+              ctx.lineWidth = 8;
+              ctx.strokeStyle = "black";
+              ctx.fillStyle="white";
+              ctx.fill();
+              ctx.stroke();
+ 
+              ctx.beginPath();
+              ctx.arc(130, 120, 20, 0,  Math.PI, false);
+              ctx.lineWidth = 1;
+              ctx.strokeStyle = "red";
+              ctx.fillStyle="red";
+              ctx.fill();
+              ctx.stroke();
+            }
+        </script>
+    </head>
+ 
+    <body>
+        <form>
+        <input type="button" id="btnOK" value="Disegna" onclick="creaFigura()">
+    </form>
+       <canvas id="myCanvas" width="500" height="300" style="border:1px solid black;">
+            Your browser does not support the HTML canvas tag.
+        </canvas>
+    </body>
+</html>
