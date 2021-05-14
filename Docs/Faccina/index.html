@@ -15,7 +15,20 @@
               ctx.fillStyle="yellow";
               ctx.fill();
               ctx.stroke();
+              ctx.closePath();
    
+   
+
+ctx.beginPath();
+ctx.moveTo(25,80);
+ctx.lineTo(35,80);
+
+ctx.stroke();
+ctx.fill();
+ctx.closePath();
+
+
+
               ctx.beginPath();
               ctx.arc(110, 90, 7, 0, 2 * Math.PI, true);
               ctx.lineWidth = 8;
@@ -23,6 +36,7 @@
               ctx.fillStyle="white";
               ctx.fill();
               ctx.stroke();
+              ctx.closePath();
  
               ctx.beginPath();
               ctx.arc(150, 90, 7, 0, 2 * Math.PI, true);
@@ -31,6 +45,7 @@
               ctx.fillStyle="white";
               ctx.fill();
               ctx.stroke();
+              ctx.closePath();
  
               ctx.beginPath();
               ctx.arc(130, 120, 20, 0,  Math.PI, false);
@@ -39,6 +54,7 @@
               ctx.fillStyle="red";
               ctx.fill();
               ctx.stroke();
+              ctx.closePath();
             }
         </script>
     </head>
